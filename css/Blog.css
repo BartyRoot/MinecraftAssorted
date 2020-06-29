@@ -1,0 +1,140 @@
+*{
+     margin: 0;
+     padding: 0;
+
+}
+
+body{
+  background: #fff;
+  font-family: fantasy;
+}
+
+header{
+  background: #49ff00;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0px 0px 30px #a4a4a4;
+  border-bottom-style: solid;
+  border-bottom-color: #00e218;
+  border-bottom-width: 5px;
+}
+
+#encabezado{
+  width: 80%;
+  height: 30px;
+  margin: auto;
+  border: 0px solid #000;
+}
+
+#logo{
+  width: 30%;
+  height: auto; overflow: hidden;
+  float: left;
+  color: #000;
+  font-size: 25px;
+}
+
+#menu{
+  width: 60%;
+  height: 40px;
+  float: right;
+  border: 0px solid;
+  margin-top: 22px;
+}
+#menu ul{}
+
+#menu ul li{
+  list-style: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+#menu ul li .enlace{
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+
+}
+#menu ul li .enlace:hover{
+  background: #00910f;
+  color: #000;
+  border-radius: 5px 5px 0px 0px;
+}
+#menu ul li .active-menu{
+  background: #00910f;
+  color: #000;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px;
+}
+
+#Principal{
+  width: 80%;
+  height: auto; overflow: hidden;
+  border: 1px solid;
+  margin: 10px auto;
+}
+#Tutoriales{
+  width: 70%;
+  height: auto; overflow: hidden;
+  border: 1px solid;
+  margin-top: 10px auto;
+
+}
+.post{
+  width: 96%;
+  height: auto; overflow: hidden;
+  padding: 7px 7px;
+  background: #fdfdfd;
+  border-left-style: solid;
+  border-left-width: 7px;
+  border-left-color: #00d316;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #ccc;
+  margin-bottom: 25px;
+}
+.enlace-post{
+  text-decoration: none;
+}
+#Tutoriales a .titulo-post{
+  color: #636363;
+  font-size: 22px;
+  font-family: fantasy;
+}
+#Tutoriales a .titulo-post:hover{
+  text-decoration: underline;
+}
+#Tutoriales .img-post{
+  width: 150px;
+  height: 100px;
+  float: left;
+  margin-top: 7px 7px 7px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#Tutoriales .datos-Tutoriales{
+  font-family: serif;
+  color: #0489B1
+}
+#Tutoriales .parrafo-post{
+  font-family: fantasy;
+  font-size: 16px;
+  color: #848484;
+  padding: 5px;
+}
+#Tutoriales .leer-mas{
+  background: #0489B1;
+  color: #fff;
+  border: 0px;
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+#Tutoriales .num-comentarios{
+  background: #0489B1;
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+}
